@@ -29,6 +29,7 @@
         <DescriptionPrismic
           :description="slice.primary.description"
           :buttonText="slice.primary.buttonText"
+          :buttonLink="slice.primary.buttonLink"
         />
       </div>
 

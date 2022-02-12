@@ -60,6 +60,14 @@
             "default_value": false
           },
           "type": "Boolean"
+        },
+        "buttonLink": {
+          "config": {
+            "label": "buttonLink",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}

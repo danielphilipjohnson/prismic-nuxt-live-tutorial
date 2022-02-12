@@ -44,6 +44,14 @@
             "placeholder": ""
           },
           "type": "Text"
+        },
+        "buttonLink": {
+          "config": {
+            "label": "buttonLink",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}
