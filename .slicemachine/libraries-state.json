@@ -168,23 +168,35 @@
             "items": [
               {
                 "icons": "loading",
-                "title": "utilize strategic eyeballs",
+                "title": "utilize compelling infomediaries",
                 "text": [
                   {
                     "type": "paragraph",
-                    "text": "Velit proident non dolore anim aliqua exercitation. Consequat non aliqua ea excepteur excepteur anim.",
+                    "text": "Id duis in non dolor enim dolor proident amet nisi occaecat ex nulla.",
                     "spans": []
                   }
                 ],
                 "iconColor": "green"
               },
               {
-                "icons": "box",
-                "title": "empower turn-key users",
+                "icons": "search",
+                "title": "empower integrated relationships",
                 "text": [
                   {
                     "type": "paragraph",
-                    "text": "Eiusmod magna nulla nostrud dolor aute ea quis consequat est ut consequat qui pariatur voluptate. Aute sit aute sit pariatur quis reprehenderit officia aute cillum sit aliquip adipisicing aute pariatur. Mollit ex duis incididunt.",
+                    "text": "Dolor mollit nulla irure commodo fugiat nostrud sint enim ullamco in velit velit. Laborum dolore nisi labore amet et reprehenderit et culpa deserunt esse sunt cillum culpa laboris.",
+                    "spans": []
+                  }
+                ],
+                "iconColor": "red"
+              },
+              {
+                "icons": "loading",
+                "title": "whiteboard ubiquitous technologies",
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cillum eu qui aliqua sit officia nostrud incididunt ut. Ex quis adipisicing sint eu.",
                     "spans": []
                   }
                 ],
@@ -192,41 +204,29 @@
               },
               {
                 "icons": "box",
-                "title": "reintermediate rich web services",
+                "title": "innovate rich e-services",
                 "text": [
                   {
                     "type": "paragraph",
-                    "text": "Nisi sit velit ullamco incididunt dolore est deserunt ea nostrud exercitation amet.",
+                    "text": "Nulla amet proident quis laboris elit qui aliquip duis labore in quis. Est Lorem aliquip velit.",
                     "spans": []
                   }
                 ],
-                "iconColor": "blue"
-              },
-              {
-                "icons": "box",
-                "title": "architect transparent e-commerce",
-                "text": [
-                  {
-                    "type": "paragraph",
-                    "text": "Non consequat aliquip magna id nisi commodo proident cupidatat dolore ullamco. Laboris voluptate duis anim Lorem non nostrud est.",
-                    "spans": []
-                  }
-                ],
-                "iconColor": "purple"
+                "iconColor": "red"
               }
             ],
             "primary": {
               "title": [
                 {
                   "type": "heading2",
-                  "text": "Deliver global vortals",
+                  "text": "Harness transparent metrics",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Laborum duis sit consequat cillum ut veniam velit et id amet ex. Ut nostrud velit ea culpa. Veniam id in officia consequat aute.",
+                  "text": "In minim ad ipsum esse. Eiusmod voluptate excepteur aliqua in pariatur.",
                   "spans": []
                 }
               ]
@@ -242,7 +242,237 @@
           "default-slice": {
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\Services\\default-slice\\preview.png",
             "width": 800,
-            "height": 844
+            "height": 648
+          }
+        }
+      },
+      "text_block": {
+        "library": "slices",
+        "id": "text_block",
+        "name": "TextBlock",
+        "description": "TextBlock",
+        "model": {
+          "id": "text_block",
+          "type": "SharedSlice",
+          "name": "TextBlock",
+          "description": "TextBlock",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextBlock",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "subHeading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "subHeading",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": false,
+                    "single": "heading3"
+                  }
+                },
+                "description": {
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "text_block",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Scale end-to-end users",
+                  "spans": []
+                }
+              ],
+              "subHeading": [
+                {
+                  "type": "heading3",
+                  "text": "Innovate ubiquitous paradigms",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Ut nostrud nostrud minim ipsum ea labore aliqua voluptate. Ipsum pariatur minim ad sunt adipisicing qui qui sint enim esse laborum et do ipsum. Qui aute adipisicing elit quis labore veniam non quis magna in cillum laborum.",
+                  "spans": []
+                }
+              ],
+              "buttonText": "aggregate compelling convergence"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\TextBlock\\default-slice\\preview.png",
+            "width": 800,
+            "height": 320
+          }
+        }
+      },
+      "text_with_image_block": {
+        "library": "slices",
+        "id": "text_with_image_block",
+        "name": "TextWithImageBlock",
+        "description": "TextWithImageBlock",
+        "model": {
+          "id": "text_with_image_block",
+          "type": "SharedSlice",
+          "name": "TextWithImageBlock",
+          "description": "TextWithImageBlock",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextWithImageBlock",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "subHeading": {
+                  "config": {
+                    "label": "subHeading",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "imageRight": {
+                  "config": {
+                    "label": "imageRight",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  },
+                  "type": "Boolean"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "text_with_image_block",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Deliver integrated relationships",
+                  "spans": []
+                }
+              ],
+              "subHeading": [
+                {
+                  "type": "paragraph",
+                  "text": "Pariatur magna laboris sint sit velit ullamco.",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Sint commodo cupidatat enim excepteur aliquip id in amet exercitation dolore est. Excepteur magna proident in consequat cupidatat eiusmod id velit ullamco id Lorem culpa fugiat elit cillum.",
+                  "spans": []
+                }
+              ],
+              "buttonText": "engage web-enabled web services",
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+              },
+              "imageRight": true
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\TextWithImageBlock\\default-slice\\preview.png",
+            "width": 800,
+            "height": 392
           }
         }
       }
