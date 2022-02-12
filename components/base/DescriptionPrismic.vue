@@ -1,12 +1,15 @@
 <template>
   <div :class="containerClasses" class="mx-auto prose">
     <prismic-rich-text class="text-xl font-light leading-9 " :field="description" />
-    <prismic-link class="p-4 text-white bg-purple-500 rounded" :field="buttonLink">{{ buttonText }}</prismic-link>
+    <button-link :buttonLink="buttonLink" buttonText="buttonText"/> 
+
   </div>
 
 </template>
 <script>
+import ButtonLink from './ButtonLink.vue'
 export default {
+  components: { ButtonLink },
     props: {
     description: {
       type: Array,
