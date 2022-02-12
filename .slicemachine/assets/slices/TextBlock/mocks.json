@@ -8,25 +8,29 @@
       "title": [
         {
           "type": "heading2",
-          "text": "Scale end-to-end users",
+          "text": "Whiteboard world-class eyeballs",
           "spans": []
         }
       ],
       "subHeading": [
         {
           "type": "heading3",
-          "text": "Innovate ubiquitous paradigms",
+          "text": "Empower compelling architectures",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Ut nostrud nostrud minim ipsum ea labore aliqua voluptate. Ipsum pariatur minim ad sunt adipisicing qui qui sint enim esse laborum et do ipsum. Qui aute adipisicing elit quis labore veniam non quis magna in cillum laborum.",
+          "text": "Amet sunt eiusmod ad elit commodo tempor fugiat. Velit nisi dolore labore.",
           "spans": []
         }
       ],
-      "buttonText": "aggregate compelling convergence"
+      "buttonText": "disintermediate granular action-items",
+      "buttonLink": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      }
     }
   }
 ]

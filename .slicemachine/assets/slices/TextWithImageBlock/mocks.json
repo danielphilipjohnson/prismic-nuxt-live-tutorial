@@ -8,25 +8,25 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Deliver integrated relationships",
+          "text": "Enable mission-critical architectures",
           "spans": []
         }
       ],
       "subHeading": [
         {
           "type": "paragraph",
-          "text": "Pariatur magna laboris sint sit velit ullamco.",
+          "text": "Dolor laborum proident proident dolore minim laborum laborum laboris.",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Sint commodo cupidatat enim excepteur aliquip id in amet exercitation dolore est. Excepteur magna proident in consequat cupidatat eiusmod id velit ullamco id Lorem culpa fugiat elit cillum.",
+          "text": "Occaecat in fugiat id adipisicing ex culpa id amet nostrud. Ad dolor minim cupidatat eiusmod.",
           "spans": []
         }
       ],
-      "buttonText": "engage web-enabled web services",
+      "buttonText": "engineer best-of-breed communities",
       "image": {
         "dimensions": {
           "width": 900,
@@ -34,9 +34,13 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
       },
-      "imageRight": true
+      "imageRight": true,
+      "buttonLink": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      }
     }
   }
 ]
