@@ -1,8 +1,9 @@
 <template>
-  <div :class="containerClasses" class="mx-auto ">
-    <prismic-rich-text class="text-xl font-light leading-9 prose" :field="description" />
-    <button class="p-4 text-white bg-purple-500 rounded">{{ buttonText }}</button>
+  <div :class="containerClasses" class="mx-auto prose">
+    <prismic-rich-text class="text-xl font-light leading-9 " :field="description" />
+    <prismic-link class="p-4 text-white bg-purple-500 rounded" :field="buttonLink">{{ buttonText }}</prismic-link>
   </div>
+
 </template>
 <script>
 export default {
@@ -15,6 +16,9 @@ export default {
     },
     containerClasses : {
       type: String
+    },
+    buttonLink: {
+      type: Array,
     }
   },
 }
@@ -22,6 +26,11 @@ export default {
 
 <style>
 .prose p {
-    margin-bottom: 1.25rem;
+    margin-bottom: 2.25rem;
+}
+.prose a {
+  @apply text-xs md:text-base block max-w-max;
+  margin-bottom: 2.5rem;
+  word-break: break-word;
 }
 </style>

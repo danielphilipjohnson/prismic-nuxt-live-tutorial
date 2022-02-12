@@ -1,6 +1,136 @@
 {
   "slices": {
     "components": {
+      "main_hero": {
+        "library": "slices",
+        "id": "main_hero",
+        "name": "MainHero",
+        "description": "MainHero",
+        "model": {
+          "id": "main_hero",
+          "type": "SharedSlice",
+          "name": "MainHero",
+          "description": "MainHero",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MainHero",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": false,
+                    "single": "heading1"
+                  }
+                },
+                "subHeading": {
+                  "config": {
+                    "label": "subHeading",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2,heading3,heading4,heading5"
+                  },
+                  "type": "StructuredText"
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "cta": {
+                  "config": {
+                    "label": "cta",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "ctaLink": {
+                  "config": {
+                    "label": "ctaLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "main_hero",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Reinvent clicks-and-mortar applications",
+                  "spans": []
+                }
+              ],
+              "subHeading": [
+                {
+                  "type": "heading2",
+                  "text": "Orchestrate B2B schemas",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "In commodo occaecat consequat ipsum nisi irure velit velit ut ex culpa excepteur consectetur quis sunt. Ex consectetur proident sint pariatur sit adipisicing minim tempor pariatur. Ullamco culpa amet incididunt aliqua.",
+                  "spans": []
+                }
+              ],
+              "cta": "whiteboard world-class paradigms",
+              "ctaLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\MainHero\\default-slice\\preview.png",
+            "width": 800,
+            "height": 428
+          }
+        }
+      },
       "my_slice": {
         "library": "slices",
         "id": "my_slice",
@@ -297,6 +427,14 @@
                     "placeholder": ""
                   },
                   "type": "Text"
+                },
+                "buttonLink": {
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
                 }
               },
               "items": {}
@@ -313,25 +451,29 @@
               "title": [
                 {
                   "type": "heading2",
-                  "text": "Scale end-to-end users",
+                  "text": "Whiteboard world-class eyeballs",
                   "spans": []
                 }
               ],
               "subHeading": [
                 {
                   "type": "heading3",
-                  "text": "Innovate ubiquitous paradigms",
+                  "text": "Empower compelling architectures",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Ut nostrud nostrud minim ipsum ea labore aliqua voluptate. Ipsum pariatur minim ad sunt adipisicing qui qui sint enim esse laborum et do ipsum. Qui aute adipisicing elit quis labore veniam non quis magna in cillum laborum.",
+                  "text": "Amet sunt eiusmod ad elit commodo tempor fugiat. Velit nisi dolore labore.",
                   "spans": []
                 }
               ],
-              "buttonText": "aggregate compelling convergence"
+              "buttonText": "disintermediate granular action-items",
+              "buttonLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
             }
           }
         },
@@ -344,7 +486,7 @@
           "default-slice": {
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\TextBlock\\default-slice\\preview.png",
             "width": 800,
-            "height": 320
+            "height": 232
           }
         }
       },
@@ -415,6 +557,14 @@
                     "default_value": false
                   },
                   "type": "Boolean"
+                },
+                "buttonLink": {
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
                 }
               },
               "items": {}
@@ -431,25 +581,25 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Deliver integrated relationships",
+                  "text": "Enable mission-critical architectures",
                   "spans": []
                 }
               ],
               "subHeading": [
                 {
                   "type": "paragraph",
-                  "text": "Pariatur magna laboris sint sit velit ullamco.",
+                  "text": "Dolor laborum proident proident dolore minim laborum laborum laboris.",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Sint commodo cupidatat enim excepteur aliquip id in amet exercitation dolore est. Excepteur magna proident in consequat cupidatat eiusmod id velit ullamco id Lorem culpa fugiat elit cillum.",
+                  "text": "Occaecat in fugiat id adipisicing ex culpa id amet nostrud. Ad dolor minim cupidatat eiusmod.",
                   "spans": []
                 }
               ],
-              "buttonText": "engage web-enabled web services",
+              "buttonText": "engineer best-of-breed communities",
               "image": {
                 "dimensions": {
                   "width": 900,
@@ -457,9 +607,13 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
               },
-              "imageRight": true
+              "imageRight": true,
+              "buttonLink": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              }
             }
           }
         },
@@ -472,7 +626,7 @@
           "default-slice": {
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\TextWithImageBlock\\default-slice\\preview.png",
             "width": 800,
-            "height": 392
+            "height": 376
           }
         }
       }

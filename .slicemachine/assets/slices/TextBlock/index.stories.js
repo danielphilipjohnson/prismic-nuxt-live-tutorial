@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading2","text":"Scale end-to-end users","spans":[]}],"subHeading":[{"type":"heading3","text":"Innovate ubiquitous paradigms","spans":[]}],"description":[{"type":"paragraph","text":"Ut nostrud nostrud minim ipsum ea labore aliqua voluptate. Ipsum pariatur minim ad sunt adipisicing qui qui sint enim esse laborum et do ipsum. Qui aute adipisicing elit quis labore veniam non quis magna in cillum laborum.","spans":[]}],"buttonText":"aggregate compelling convergence"},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading2","text":"Whiteboard world-class eyeballs","spans":[]}],"subHeading":[{"type":"heading3","text":"Empower compelling architectures","spans":[]}],"description":[{"type":"paragraph","text":"Amet sunt eiusmod ad elit commodo tempor fugiat. Velit nisi dolore labore.","spans":[]}],"buttonText":"disintermediate granular action-items","buttonLink":{"link_type":"Web","url":"http://google.com"}},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
