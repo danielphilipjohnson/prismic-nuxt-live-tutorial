@@ -28,6 +28,9 @@
           "choices": {
             "services": {
               "type": "SharedSlice"
+            },
+            "text_block": {
+              "type": "SharedSlice"
             }
           }
         }
