@@ -1,5 +1,5 @@
 <template>
-  <section class="grid lg:grid-cols-4">
+  <section class="">
     <HeaderPrismic
       :title="slice.primary.title"
       :description="slice.primary.description"

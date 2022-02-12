@@ -1,7 +1,7 @@
 
   <template>
-  <div class="max-w-2xl mx-auto">
-    <div class="flex flex-col items-center mb-16 md:flex-row lg:items-start items-ends" v-for="(item, i) in items" :key="`slice-item-${i}`">
+  <div class="grid gap-12 px-4 mx-auto md:grid-cols-2 max-w-7xl lg:grid-cols-4">
+    <div class="flex flex-col mb-16 md:items-center" v-for="(item, i) in items" :key="`slice-item-${i}`">
       <div>
         <template v-if="item.icons == 'award'">
           <div :class="formatColorClass(item.iconColor) + ' bg-purple-500 flex items-center justify-center rounded-full mr-4 text-white w-16 h-16'">
@@ -25,9 +25,9 @@
         </template>
       </div>
 
-      <div class="pt-4 text-center md:text-left">
+      <div class="pt-4 text-left md:text-center">
         <h3 class="mb-4 text-2xl leading-7 capitalize">{{ item.title }}</h3>
-        <prismic-rich-text class="text-gray-800" :field="item.text" />
+        <prismic-rich-text class="text-gray-800 md:text-center" :field="item.text" />
       </div>
     </div>
   </div>
