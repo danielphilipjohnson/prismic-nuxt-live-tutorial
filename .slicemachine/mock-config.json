@@ -34,25 +34,152 @@
         }
       }
     ],
-    "Services": {
+    "Services": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "services",
+        "items": [
+          {
+            "icons": "loading",
+            "title": "utilize strategic eyeballs",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Velit proident non dolore anim aliqua exercitation. Consequat non aliqua ea excepteur excepteur anim.",
+                "spans": []
+              }
+            ],
+            "iconColor": "green"
+          },
+          {
+            "icons": "box",
+            "title": "empower turn-key users",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Eiusmod magna nulla nostrud dolor aute ea quis consequat est ut consequat qui pariatur voluptate. Aute sit aute sit pariatur quis reprehenderit officia aute cillum sit aliquip adipisicing aute pariatur. Mollit ex duis incididunt.",
+                "spans": []
+              }
+            ],
+            "iconColor": "purple"
+          },
+          {
+            "icons": "box",
+            "title": "reintermediate rich web services",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Nisi sit velit ullamco incididunt dolore est deserunt ea nostrud exercitation amet.",
+                "spans": []
+              }
+            ],
+            "iconColor": "blue"
+          },
+          {
+            "icons": "box",
+            "title": "architect transparent e-commerce",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Non consequat aliquip magna id nisi commodo proident cupidatat dolore ullamco. Laboris voluptate duis anim Lorem non nostrud est.",
+                "spans": []
+              }
+            ],
+            "iconColor": "purple"
+          }
+        ],
+        "primary": {
+          "title": [
+            {
+              "type": "heading2",
+              "text": "Deliver global vortals",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Laborum duis sit consequat cillum ut veniam velit et id amet ex. Ut nostrud velit ea culpa. Veniam id in officia consequat aute.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "TextBlock": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "text_block",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading2",
+              "text": "Leverage robust interfaces",
+              "spans": []
+            }
+          ],
+          "subHeading": [
+            {
+              "type": "heading3",
+              "text": "Orchestrate web-enabled web services",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Tempor aute Lorem consequat anim sit mollit duis occaecat non incididunt consequat cillum. Voluptate duis ipsum ut culpa cupidatat non non aliqua aliquip excepteur est fugiat. Consequat voluptate pariatur magna incididunt mollit commodo duis id amet enim.",
+              "spans": []
+            },
+            {
+              "type": "paragraph",
+              "text": "Dolor non officia in eu reprehenderit id enim est esse ut. Cupidatat nostrud est occaecat aliqua minim dolor exercitation ullamco pariatur consequat nostrud qui tempor fugiat. Consectetur cupidatat sunt pariatur.",
+              "spans": []
+            },
+            {
+              "type": "paragraph",
+              "text": "Sit sint do aute fugiat occaecat. Eiusmod ullamco consequat eiusmod veniam duis consequat velit irure.",
+              "spans": []
+            },
+            {
+              "type": "paragraph",
+              "text": "Excepteur aute Lorem labore non deserunt. Dolore excepteur dolore duis minim velit mollit commodo nisi consequat sint. Nostrud excepteur irure non veniam quis est veniam amet mollit.",
+              "spans": []
+            },
+            {
+              "type": "paragraph",
+              "text": "Adipisicing ipsum duis magna ullamco eiusmod.",
+              "spans": []
+            },
+            {
+              "type": "paragraph",
+              "text": "Nulla elit fugiat laboris sint pariatur cupidatat consequat eiusmod sunt quis deserunt in aliqua enim. Sint incididunt occaecat qui fugiat sunt tempor. Aliquip deserunt tempor commodo eiusmod enim deserunt.",
+              "spans": []
+            },
+            {
+              "type": "paragraph",
+              "text": "Dolor pariatur sint labore officia aute esse nostrud aute ex laboris ex tempor laborum irure deserunt.",
+              "spans": []
+            }
+          ],
+          "buttonText": "facilitate leading-edge platforms"
+        }
+      }
+    ],
+    "TextWithImageBlock": {
       "default-slice": {
-        "items": {
-          "text": {
+        "primary": {
+          "description": {
             "config": {
               "patternType": "PARAGRAPH",
-              "blocks": 5
-            }
-          },
-          "icons": {
-            "content": "award"
-          }
-        },
-        "primary": {
-          "title": {
-            "config": {
-              "patternType": "HEADING",
               "blocks": 1
             }
+          },
+          "imageRight": {
+            "content": true
           }
         }
       }
