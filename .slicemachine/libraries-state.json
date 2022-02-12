@@ -1,6 +1,87 @@
 {
   "slices": {
     "components": {
+      "cta_banner": {
+        "library": "slices",
+        "id": "cta_banner",
+        "name": "CtaBanner",
+        "description": "CtaBanner",
+        "model": {
+          "id": "cta_banner",
+          "type": "SharedSlice",
+          "name": "CtaBanner",
+          "description": "CtaBanner",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CtaBanner",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "buttonLink": {
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "cta_banner",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Redefine bleeding-edge e-business",
+                  "spans": []
+                }
+              ],
+              "buttonLink": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "buttonText": "morph plug-and-play ROI"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\CtaBanner\\default-slice\\preview.png",
+            "width": 800,
+            "height": 368
+          }
+        }
+      },
       "main_hero": {
         "library": "slices",
         "id": "main_hero",

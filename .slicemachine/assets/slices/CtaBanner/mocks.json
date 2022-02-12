@@ -1,0 +1,22 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "cta_banner",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Redefine bleeding-edge e-business",
+          "spans": []
+        }
+      ],
+      "buttonLink": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "buttonText": "morph plug-and-play ROI"
+    }
+  }
+]
