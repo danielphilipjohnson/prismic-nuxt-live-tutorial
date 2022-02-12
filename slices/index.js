@@ -2,3 +2,5 @@
 
 export { default as MySlice } from './MySlice'
 export { default as Services } from './Services'
+export { default as TextBlock } from './TextBlock'
+export { default as TextWithImageBlock } from './TextWithImageBlock'
