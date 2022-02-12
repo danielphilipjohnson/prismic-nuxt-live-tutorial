@@ -1,5 +1,5 @@
 <template>
-  <header :class="containerClasses" class="pt-8 mx-auto">
+  <header :class="containerClasses" class="mx-auto">
     <prismic-rich-text
       :field="title"
       :class="titleClasses"
