@@ -1,0 +1,56 @@
+{
+  "id": "menu",
+  "label": "Menu",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "logo": {
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "menuLinks": {
+        "config": {
+          "label": "menuLinks",
+          "fields": {
+            "link": {
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              },
+              "type": "Link"
+            },
+            "label": {
+              "config": {
+                "label": "label",
+                "placeholder": ""
+              },
+              "type": "Text"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "buttonText": {
+        "config": {
+          "label": "buttonText",
+          "placeholder": ""
+        },
+        "type": "Text"
+      }
+    }
+  }
+}
