@@ -33,6 +33,29 @@
           ]
         }
       }
-    ]
+    ],
+    "Services": {
+      "default-slice": {
+        "items": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 5
+            }
+          },
+          "icons": {
+            "content": "award"
+          }
+        },
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
   }
 }
