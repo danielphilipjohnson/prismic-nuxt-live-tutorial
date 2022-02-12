@@ -1,18 +1,18 @@
 <template>
   <div>
-    <header-prismic />
+    <the-nav/>
     <nuxt />
-    <TheFooter />
+    <the-footer />
   </div>
 </template>
 
 <script>
-import HeaderPrismic from "~/components/HeaderPrismic.vue";
+import TheNav from "~/components/TheNav.vue";
 import TheFooter from "~/components/TheFooter.vue";
 
 export default {
   components: {
-    HeaderPrismic,
+    TheNav,
     TheFooter
   },
   data() {
