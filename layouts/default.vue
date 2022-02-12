@@ -15,9 +15,6 @@ export default {
     TheNav,
     TheFooter
   },
-  data() {
-   
-  },
   head() {
     return {
       title: "Prismic Nuxt.js",
