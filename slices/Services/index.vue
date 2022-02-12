@@ -1,6 +1,6 @@
 <template>
   <section class="">
-    <HeaderPrismic
+    <header-description-prismic
       :title="slice.primary.title"
       :description="slice.primary.description"
     />
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import HeaderPrismic from "~/components/base/HeaderPrismic.vue";
+import HeaderPrismic from "~/components/base/HeaderDescriptionPrismic.vue";
 
 import Icons from "~/components/base/Icons.vue";
 export default {
