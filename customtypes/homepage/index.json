@@ -1,0 +1,74 @@
+{
+  "id": "homepage",
+  "label": "homepage",
+  "repeatable": false,
+  "status": false,
+  "json": {
+    "Main": {
+      "heading": {
+        "config": {
+          "label": "heading",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      },
+      "uid": {
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      }
+    },
+    "Seo": {
+      "seoTitle": {
+        "config": {
+          "label": "seoTitle",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "seoDescription": {
+        "config": {
+          "label": "seoDescription",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "seoTwitterHandle": {
+        "config": {
+          "label": "seoTwitterHandle",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "seoSiteName": {
+        "config": {
+          "label": "seoSiteName",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "seoImage": {
+        "config": {
+          "label": "seoImage",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "select": null
+        },
+        "type": "Link"
+      },
+      "seoTwitterCardStyle": {
+        "config": {
+          "label": "seoTwitterCardStyle",
+          "placeholder_false": "false",
+          "placeholder_true": "true",
+          "default_value": false
+        },
+        "type": "Boolean"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_cts": {
+    "menu": {
+      "menuLinks": {}
+    },
+    "footer": {
+      "socials": {}
+    },
+    "page": {},
+    "homepage": {}
+  },
+  "slices": {
+    "MySlice": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "my_slice",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "E-enable value-added schemas",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Nisi labore sunt cupidatat deserunt incididunt. Ex nostrud tempor laborum dolor aute minim ut adipisicing anim culpa enim id quis.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

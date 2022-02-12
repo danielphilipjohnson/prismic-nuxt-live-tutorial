@@ -1,0 +1,183 @@
+{
+  "id": "7bcdcbcb-fcdf-4cea-a689-d0f655c1fb64",
+  "uid": "illum-aliquam-unde",
+  "type": "footer",
+  "data": {
+    "logo": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=500&fit=crop"
+    },
+    "menu1Heading": "synergize plug-and-play vortals",
+    "menu2Heading": "productize collaborative portals",
+    "menu3Heading": "unleash extensible infrastructures",
+    "menu1": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "synthesize ubiquitous e-tailers"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "optimize ubiquitous networks"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "orchestrate web-enabled systems"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "repurpose customized infomediaries"
+      }
+    ],
+    "menu2": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "disintermediate wireless methodologies"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "label": "empower one-to-one bandwidth"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "label": "grow front-end functionalities"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "grow efficient web services"
+      }
+    ],
+    "menu3": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "label": "engage sticky infrastructures"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "drive cross-platform web services"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "maximize world-class paradigms"
+      }
+    ],
+    "bottomLinks": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "deploy granular infrastructures"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "generate robust interfaces"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "maximize granular e-markets"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "synergize user-centric infomediaries"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "recontextualize magnetic initiatives"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "utilize 24/365 interfaces"
+      }
+    ],
+    "socials": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "socialIcon": "instagram"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "socialIcon": "instagram"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "socialIcon": "instagram"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "socialIcon": "linkedin"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "socialIcon": "twitter"
+      }
+    ]
+  }
+}

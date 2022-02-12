@@ -1,0 +1,41 @@
+{
+  "id": "722dbabf-05ea-4431-8d53-3aeb5039a7fb",
+  "uid": "ad-ullam-corrupti",
+  "type": "menu",
+  "data": {
+    "title": "redefine front-end synergies",
+    "logo": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+    },
+    "buttonText": "implement scalable architectures",
+    "menuLinks": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "reintermediate global niches"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "visualize killer technologies"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "seize extensible niches"
+      }
+    ]
+  }
+}
