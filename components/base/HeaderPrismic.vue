@@ -1,24 +1,27 @@
 <template>
-  <header class="max-w-2xl pt-8 mx-auto">
+  <header :class="containerClasses" class="pt-8 mx-auto">
     <prismic-rich-text
       :field="title"
-      class="mb-4 text-xl font-bold text-center text-purple-500 lg:text-2xl "
+      class="mb-4 text-4xl font-bold leading-9"
     />
     <prismic-rich-text
-      :field="description"
-      class="text-2xl font-light text-center md:text-3xl mb-14"
+      :field="subHeading"
+      class="mb-5 text-2xl font-medium leading-8"
     />
   </header>
 </template>
 <script>
 export default {
-    props: {
-        title: {
-            type: Array
-        },
-        description: {
-            type: Array
-        }
-    }
-}
+  props: {
+    title: {
+      type: Array,
+    },
+    subHeading: {
+      type: Array,
+    },
+    containerClasses: {
+      type: String,
+    },
+  },
+};
 </script>
