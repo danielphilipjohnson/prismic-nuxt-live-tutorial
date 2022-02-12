@@ -1,0 +1,68 @@
+{
+  "id": "text_with_image_block",
+  "type": "SharedSlice",
+  "name": "TextWithImageBlock",
+  "description": "TextWithImageBlock",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TextWithImageBlock",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "subHeading": {
+          "config": {
+            "label": "subHeading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "buttonText": {
+          "config": {
+            "label": "buttonText",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "imageRight": {
+          "config": {
+            "label": "imageRight",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
