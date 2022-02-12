@@ -1,0 +1,79 @@
+{
+  "id": "services",
+  "type": "SharedSlice",
+  "name": "Services",
+  "description": "Services",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Services",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2,heading3,heading4,heading5,heading6"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        }
+      },
+      "items": {
+        "icons": {
+          "config": {
+            "label": "icons",
+            "placeholder": "",
+            "options": [
+              "loading",
+              "search",
+              "award",
+              "box"
+            ],
+            "default_value": "loading"
+          },
+          "type": "Select"
+        },
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "text": {
+          "config": {
+            "label": "text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "iconColor": {
+          "config": {
+            "label": "iconColor",
+            "placeholder": "",
+            "options": [
+              "red",
+              "blue",
+              "green",
+              "purple"
+            ]
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}
