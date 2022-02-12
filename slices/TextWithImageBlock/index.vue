@@ -22,6 +22,8 @@
         <HeaderPrismic
           :title="slice.primary.title"
           :subHeading="slice.primary.subHeading"
+          titleClasses="text-4xl font-bold leading-9"
+          subHeadingClasses="text-2xl font-medium leading-8"
         />
 
         <DescriptionPrismic

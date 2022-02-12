@@ -2,7 +2,9 @@
   <section class="px-8">
     <header-description-prismic
       :title="slice.primary.title"
+      titleClasses="text-4xl font-bold leading-9"
       :description="slice.primary.description"
+      subHeadingClasses="text-2xl font-medium leading-8"
     />
    
     <Icons :items="slice.items" />

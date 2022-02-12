@@ -2,11 +2,13 @@
   <header :class="containerClasses" class="pt-8 mx-auto">
     <prismic-rich-text
       :field="title"
-      class="mb-4 text-4xl font-bold leading-9"
+      :class="titleClasses"
+      class="mb-4"
     />
     <prismic-rich-text
       :field="subHeading"
-      class="mb-5 text-2xl font-medium leading-8"
+      :class="subHeadingClasses"
+      class="mb-5 "
     />
   </header>
 </template>
@@ -22,6 +24,12 @@ export default {
     containerClasses: {
       type: String,
     },
+    titleClasses:{
+      type: String,
+    },
+    subHeadingClasses: {
+      type: String,
+    }
   },
 };
 </script>
