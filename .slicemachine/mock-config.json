@@ -183,6 +183,24 @@
           }
         }
       }
+    },
+    "MainHero": {
+      "default-slice": {
+        "primary": {
+          "subHeading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
     }
   }
 }
