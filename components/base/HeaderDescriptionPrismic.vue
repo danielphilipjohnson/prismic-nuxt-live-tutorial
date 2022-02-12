@@ -1,5 +1,5 @@
 <template>
-  <header class="max-w-2xl pt-8 mx-auto">
+  <header :class="containerClasses" class="pt-8 mx-auto">
     <prismic-rich-text
       :field="title"
       class="mb-4 text-xl font-bold text-center text-purple-500 lg:text-2xl "
@@ -18,6 +18,9 @@ export default {
         },
         description: {
             type: Array
+        },
+        containerClasses:{
+          type: String
         }
     }
 }
