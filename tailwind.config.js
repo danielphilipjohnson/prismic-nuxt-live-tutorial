@@ -1,10 +1,15 @@
 module.exports = {
-  mode: 'jit',
-  purge: [],
+  mode: "jit",
+  purge: [
+    "./public/**/*.html",
+    "./components/**/*.vue",
+    "./slices/**/*.vue",
+    "./utils/**/*.js",
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     container: {
-      padding: '1rem',
+      padding: "1rem",
     },
     extend: {},
   },
@@ -12,4 +17,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
