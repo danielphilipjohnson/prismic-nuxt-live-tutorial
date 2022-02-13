@@ -107,8 +107,8 @@
         }
       }
     ],
-    "TextBlock": [
-      {
+    "TextBlock": {
+      "0": {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "text_block",
@@ -141,8 +141,18 @@
             "url": "http://google.com"
           }
         }
+      },
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
-    ],
+    },
     "TextWithImageBlock": {
       "default-slice": {
         "primary": {
@@ -236,6 +246,29 @@
     "ServiceCards": {
       "default-slice": {
         "items": {}
+      }
+    },
+    "ImageBlock": {
+      "default-slice": {
+        "primary": {}
+      }
+    },
+    "BlockText": {
+      "default-slice": {
+        "primary": {},
+        "items": {
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ButtonBlock": {
+      "default-slice": {
+        "primary": {}
       }
     }
   }

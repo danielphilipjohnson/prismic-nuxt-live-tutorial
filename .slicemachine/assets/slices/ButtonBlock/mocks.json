@@ -1,0 +1,15 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "button_block",
+    "items": [],
+    "primary": {
+      "callToActionText": "enable revolutionary content",
+      "callToActionLink": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      }
+    }
+  }
+]

@@ -111,6 +111,172 @@
           }
         }
       },
+      "block_text": {
+        "library": "slices",
+        "id": "block_text",
+        "name": "BlockText",
+        "description": "BlockText",
+        "model": {
+          "id": "block_text",
+          "type": "SharedSlice",
+          "name": "BlockText",
+          "description": "BlockText",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BlockText",
+              "primary": {},
+              "items": {
+                "content": {
+                  "config": {
+                    "label": "content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "block_text",
+            "items": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Amet occaecat minim sit incididunt incididunt Lorem. Velit occaecat aute sunt eu amet consequat irure eiusmod fugiat exercitation sint.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sunt ea nostrud aliqua occaecat.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consectetur officia nisi et laborum magna ea tempor irure cupidatat laboris sint officia do esse aliquip. Mollit commodo deserunt Lorem mollit proident esse adipisicing ex aliqua in qui.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliqua dolor non dolore.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident mollit incididunt dolore cillum.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\BlockText\\default-slice\\preview.png",
+            "width": 800,
+            "height": 128
+          }
+        }
+      },
+      "button_block": {
+        "library": "slices",
+        "id": "button_block",
+        "name": "ButtonBlock",
+        "description": "ButtonBlock",
+        "model": {
+          "id": "button_block",
+          "type": "SharedSlice",
+          "name": "ButtonBlock",
+          "description": "ButtonBlock",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ButtonBlock",
+              "primary": {
+                "callToActionText": {
+                  "config": {
+                    "label": "callToActionText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "callToActionLink": {
+                  "config": {
+                    "label": "callToActionLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "button_block",
+            "items": [],
+            "primary": {
+              "callToActionText": "enable revolutionary content",
+              "callToActionLink": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\ButtonBlock\\default-slice\\preview.png",
+            "width": 800,
+            "height": 128
+          }
+        }
+      },
       "cta_banner": {
         "library": "slices",
         "id": "cta_banner",
@@ -189,6 +355,69 @@
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\CtaBanner\\default-slice\\preview.png",
             "width": 800,
             "height": 368
+          }
+        }
+      },
+      "image_block": {
+        "library": "slices",
+        "id": "image_block",
+        "name": "ImageBlock",
+        "description": "ImageBlock",
+        "model": {
+          "id": "image_block",
+          "type": "SharedSlice",
+          "name": "ImageBlock",
+          "description": "ImageBlock",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageBlock",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "image_block",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\ImageBlock\\default-slice\\preview.png",
+            "width": 800,
+            "height": 128
           }
         }
       },
@@ -1064,7 +1293,7 @@
                     "label": "description",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                    "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item"
                   },
                   "type": "StructuredText"
                 },
@@ -1098,28 +1327,28 @@
               "title": [
                 {
                   "type": "heading2",
-                  "text": "Revolutionize killer mindshare",
+                  "text": "Reintermediate plug-and-play synergies",
                   "spans": []
                 }
               ],
               "subHeading": [
                 {
                   "type": "heading3",
-                  "text": "Productize leading-edge mindshare",
+                  "text": "Incubate enterprise web-readiness",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Ad ea eu eiusmod qui. Ullamco consectetur exercitation Lorem ad nisi.",
+                  "text": "Veniam consequat ad sit consequat.",
                   "spans": []
                 }
               ],
-              "buttonText": "mesh strategic bandwidth",
+              "buttonText": "harness cross-platform blockchains",
               "buttonLink": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
+                "url": "https://prismic.io"
               }
             }
           }
@@ -1133,7 +1362,7 @@
           "default-slice": {
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\TextBlock\\default-slice\\preview.png",
             "width": 800,
-            "height": 232
+            "height": 260
           }
         }
       },
@@ -1178,7 +1407,7 @@
                     "label": "Description",
                     "placeholder": "A nice description of your product",
                     "allowTargetBlank": true,
-                    "single": "paragraph"
+                    "multi": "paragraph,list-item,hyperlink"
                   }
                 },
                 "buttonText": {
@@ -1228,25 +1457,25 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Enable mission-critical architectures",
+                  "text": "Productize virtual web services",
                   "spans": []
                 }
               ],
               "subHeading": [
                 {
                   "type": "paragraph",
-                  "text": "Dolor laborum proident proident dolore minim laborum laborum laboris.",
+                  "text": "Nostrud nulla sunt sint nulla magna pariatur consequat Lorem dolore ut minim ullamco non. Id eiusmod et irure non mollit voluptate.",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Occaecat in fugiat id adipisicing ex culpa id amet nostrud. Ad dolor minim cupidatat eiusmod.",
+                  "text": "Aliqua veniam incididunt commodo ea.",
                   "spans": []
                 }
               ],
-              "buttonText": "engineer best-of-breed communities",
+              "buttonText": "harness intuitive content",
               "image": {
                 "dimensions": {
                   "width": 900,
@@ -1254,12 +1483,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
               },
               "imageRight": true,
               "buttonLink": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://slicemachine.dev"
               }
             }
           }
@@ -1273,7 +1502,7 @@
           "default-slice": {
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\TextWithImageBlock\\default-slice\\preview.png",
             "width": 800,
-            "height": 376
+            "height": 372
           }
         }
       }
