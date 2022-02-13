@@ -4,8 +4,8 @@
       class="text-xl font-light leading-9"
       :field="description"
     />
-    <template v-if="buttonLink">
-      <button-link :buttonLink="buttonLink" buttonText="buttonText" />
+    <template v-if="buttonText">
+      <button-link :buttonLink="buttonLink" :buttonText="buttonText" />
     </template>
   </div>
 </template>
