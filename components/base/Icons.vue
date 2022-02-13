@@ -1,6 +1,6 @@
 
   <template>
-  <div class="grid gap-12 px-4 mx-auto md:grid-cols-2 max-w-7xl lg:grid-cols-4">
+  <div class="grid gap-12 px-4 mx-auto md:grid-cols-2 max-w-7xll lg:grid-cols-4">
     <div class="flex flex-col mb-16 md:items-center" v-for="(item, i) in items" :key="`slice-item-${i}`">
       <div>
         <template v-if="item.icons == 'award'">

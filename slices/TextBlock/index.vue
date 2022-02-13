@@ -42,6 +42,6 @@ export default {
 
 <style scoped>
 .text-block {
-  @apply container mx-auto max-w-4xl;
+  @apply container mx-auto max-w-7xl;
 }
 </style>
