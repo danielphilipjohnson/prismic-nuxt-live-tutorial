@@ -64,7 +64,7 @@ export default {
 
 <style scoped>
 .image-block {
-  @apply grid grid-cols-1 md:grid-cols-3 container mx-auto max-w-4xl;
+  @apply grid grid-cols-1 md:grid-cols-3 container mx-auto max-w-7xl;
 }
 .image-container {
   @apply pt-8 col-span-1 h-full;

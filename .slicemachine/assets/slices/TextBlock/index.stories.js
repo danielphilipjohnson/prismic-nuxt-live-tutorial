@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading2","text":"Whiteboard world-class eyeballs","spans":[]}],"subHeading":[{"type":"heading3","text":"Empower compelling architectures","spans":[]}],"description":[{"type":"paragraph","text":"Amet sunt eiusmod ad elit commodo tempor fugiat. Velit nisi dolore labore.","spans":[]}],"buttonText":"disintermediate granular action-items","buttonLink":{"link_type":"Web","url":"http://google.com"}},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading2","text":"Revolutionize killer mindshare","spans":[]}],"subHeading":[{"type":"heading3","text":"Productize leading-edge mindshare","spans":[]}],"description":[{"type":"paragraph","text":"Ad ea eu eiusmod qui. Ullamco consectetur exercitation Lorem ad nisi.","spans":[]}],"buttonText":"mesh strategic bandwidth","buttonLink":{"link_type":"Web","url":"https://slicemachine.dev"}},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'

@@ -6,23 +6,23 @@
     "items": [
       {
         "icons": "loading",
-        "title": "utilize compelling infomediaries",
+        "title": "enhance turn-key bandwidth",
         "text": [
           {
             "type": "paragraph",
-            "text": "Id duis in non dolor enim dolor proident amet nisi occaecat ex nulla.",
+            "text": "Anim enim cupidatat voluptate Lorem nostrud ad commodo nulla excepteur.",
             "spans": []
           }
         ],
         "iconColor": "green"
       },
       {
-        "icons": "search",
-        "title": "empower integrated relationships",
+        "icons": "loading",
+        "title": "orchestrate value-added schemas",
         "text": [
           {
             "type": "paragraph",
-            "text": "Dolor mollit nulla irure commodo fugiat nostrud sint enim ullamco in velit velit. Laborum dolore nisi labore amet et reprehenderit et culpa deserunt esse sunt cillum culpa laboris.",
+            "text": "Eiusmod laboris ullamco occaecat ad proident ea veniam tempor pariatur sit sint deserunt. Duis commodo deserunt eu.",
             "spans": []
           }
         ],
@@ -30,41 +30,41 @@
       },
       {
         "icons": "loading",
-        "title": "whiteboard ubiquitous technologies",
+        "title": "recontextualize ubiquitous relationships",
         "text": [
           {
             "type": "paragraph",
-            "text": "Cillum eu qui aliqua sit officia nostrud incididunt ut. Ex quis adipisicing sint eu.",
+            "text": "Aliqua elit mollit sunt nostrud proident nisi qui adipisicing occaecat magna proident minim fugiat aute.",
+            "spans": []
+          }
+        ],
+        "iconColor": "blue"
+      },
+      {
+        "icons": "loading",
+        "title": "redefine 24/7 synergies",
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Dolore nisi minim non tempor consectetur nisi dolore incididunt.",
             "spans": []
           }
         ],
         "iconColor": "purple"
-      },
-      {
-        "icons": "box",
-        "title": "innovate rich e-services",
-        "text": [
-          {
-            "type": "paragraph",
-            "text": "Nulla amet proident quis laboris elit qui aliquip duis labore in quis. Est Lorem aliquip velit.",
-            "spans": []
-          }
-        ],
-        "iconColor": "red"
       }
     ],
     "primary": {
       "title": [
         {
           "type": "heading2",
-          "text": "Harness transparent metrics",
+          "text": "Benchmark rich infomediaries",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "In minim ad ipsum esse. Eiusmod voluptate excepteur aliqua in pariatur.",
+          "text": "Ea culpa consectetur magna nisi ea excepteur Lorem deserunt ea nulla tempor ad. In sint in ipsum sint id enim officia.",
           "spans": []
         }
       ]

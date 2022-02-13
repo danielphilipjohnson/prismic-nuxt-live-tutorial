@@ -34,6 +34,6 @@ export default {
 
 <style scoped>
 .cta-banner {
-  @apply bg-gray-300 rounded-xl max-w-4xl my-4 py-16 container mx-auto;
+  @apply bg-gray-300 rounded-xl max-w-7xl my-4 py-16 container mx-auto;
 }
 </style>

@@ -1,12 +1,12 @@
 <template>
-  <section class="px-8">
+  <section class="service-block">
     <header-description-prismic
       :title="slice.primary.title"
-      titleClasses="text-4xl font-bold leading-9"
+      containerClasses="text-4xl font-bold leading-9"
       :description="slice.primary.description"
-      subHeadingClasses="text-2xl font-medium leading-8"
+      descriptionClasses="text-2xl font-light leading-8"
     />
-   
+
     <Icons :items="slice.items" />
   </section>
 </template>
@@ -18,7 +18,7 @@ import Icons from "~/components/base/Icons.vue";
 export default {
   components: {
     Icons,
-    HeaderDescriptionPrismic
+    HeaderDescriptionPrismic,
   },
   name: "Services",
   props: {
@@ -32,3 +32,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.service-block {
+  @apply max-w-7xl mx-auto container;
+}
+</style>

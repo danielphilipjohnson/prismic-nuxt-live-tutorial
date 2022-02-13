@@ -48,7 +48,7 @@ export default {
 
 <style >
 .hero-block {
-  @apply py-16 grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-4xl;
+  @apply py-16 grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-7xl;
 }
 .title {
   @apply text-4xl md:text-6xl font-bold;
