@@ -1,5 +1,5 @@
 <template>
-  <section class="text-block">
+  <section class="py-4 text-block">
     <HeaderPrismic
       :title="slice.primary.title"
       titleClasses="text-4xl font-bold leading-9"
@@ -14,8 +14,6 @@
       :buttonLink="slice.primary.buttonLink"
       containerClasses=""
     />
-
-  
   </section>
 </template>
 

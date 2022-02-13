@@ -1,0 +1,33 @@
+{
+  "id": "button_block",
+  "type": "SharedSlice",
+  "name": "ButtonBlock",
+  "description": "ButtonBlock",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ButtonBlock",
+      "primary": {
+        "callToActionText": {
+          "config": {
+            "label": "callToActionText",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLink": {
+          "config": {
+            "label": "callToActionLink",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

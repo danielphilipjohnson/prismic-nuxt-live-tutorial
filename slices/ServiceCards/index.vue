@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto max-w-7xl">
+  <section class="container py-4 mx-auto max-w-7xl">
     <header-description-prismic
       :title="slice.primary.title"
       containerClasses="text-4xl font-bold leading-9"

@@ -35,6 +35,6 @@ export default {
 
 <style scoped>
 .service-block {
-  @apply max-w-7xl mx-auto container;
+  @apply max-w-7xl mx-auto container py-4;
 }
 </style>

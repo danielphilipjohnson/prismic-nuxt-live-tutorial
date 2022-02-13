@@ -7,6 +7,7 @@
         :title="blog.data.title"
         :lastPublicationDate="blog.data.author.last_publication_date"
         :tags="blog.data.tags"
+        :slug ="blog.uid"
       />
     </div>
   </div>

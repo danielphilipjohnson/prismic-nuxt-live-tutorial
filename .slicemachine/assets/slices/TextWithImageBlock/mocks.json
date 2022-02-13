@@ -8,25 +8,25 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Enable mission-critical architectures",
+          "text": "Productize virtual web services",
           "spans": []
         }
       ],
       "subHeading": [
         {
           "type": "paragraph",
-          "text": "Dolor laborum proident proident dolore minim laborum laborum laboris.",
+          "text": "Nostrud nulla sunt sint nulla magna pariatur consequat Lorem dolore ut minim ullamco non. Id eiusmod et irure non mollit voluptate.",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Occaecat in fugiat id adipisicing ex culpa id amet nostrud. Ad dolor minim cupidatat eiusmod.",
+          "text": "Aliqua veniam incididunt commodo ea.",
           "spans": []
         }
       ],
-      "buttonText": "engineer best-of-breed communities",
+      "buttonText": "harness intuitive content",
       "image": {
         "dimensions": {
           "width": 900,
@@ -34,12 +34,12 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
       },
       "imageRight": true,
       "buttonLink": {
         "link_type": "Web",
-        "url": "http://twitter.com"
+        "url": "https://slicemachine.dev"
       }
     }
   }

@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading2","text":"Revolutionize killer mindshare","spans":[]}],"subHeading":[{"type":"heading3","text":"Productize leading-edge mindshare","spans":[]}],"description":[{"type":"paragraph","text":"Ad ea eu eiusmod qui. Ullamco consectetur exercitation Lorem ad nisi.","spans":[]}],"buttonText":"mesh strategic bandwidth","buttonLink":{"link_type":"Web","url":"https://slicemachine.dev"}},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading2","text":"Reintermediate plug-and-play synergies","spans":[]}],"subHeading":[{"type":"heading3","text":"Incubate enterprise web-readiness","spans":[]}],"description":[{"type":"paragraph","text":"Veniam consequat ad sit consequat.","spans":[]}],"buttonText":"harness cross-platform blockchains","buttonLink":{"link_type":"Web","url":"https://prismic.io"}},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'

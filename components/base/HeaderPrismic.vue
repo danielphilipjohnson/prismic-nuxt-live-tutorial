@@ -8,7 +8,7 @@
     <prismic-rich-text
       :field="subHeading"
       :class="subHeadingClasses"
-      class="mb-5 "
+      class="mb-5"
     />
   </header>
 </template>
