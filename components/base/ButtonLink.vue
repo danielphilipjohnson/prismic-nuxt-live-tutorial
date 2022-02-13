@@ -14,7 +14,7 @@ export default {
       type: String,
     },
     buttonLink: {
-      type: Array,
+      type: Object,
     },
     buttonClasses: {
       type: String,
