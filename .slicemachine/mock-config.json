@@ -42,23 +42,35 @@
         "items": [
           {
             "icons": "loading",
-            "title": "utilize strategic eyeballs",
+            "title": "utilize compelling infomediaries",
             "text": [
               {
                 "type": "paragraph",
-                "text": "Velit proident non dolore anim aliqua exercitation. Consequat non aliqua ea excepteur excepteur anim.",
+                "text": "Id duis in non dolor enim dolor proident amet nisi occaecat ex nulla.",
                 "spans": []
               }
             ],
             "iconColor": "green"
           },
           {
-            "icons": "box",
-            "title": "empower turn-key users",
+            "icons": "search",
+            "title": "empower integrated relationships",
             "text": [
               {
                 "type": "paragraph",
-                "text": "Eiusmod magna nulla nostrud dolor aute ea quis consequat est ut consequat qui pariatur voluptate. Aute sit aute sit pariatur quis reprehenderit officia aute cillum sit aliquip adipisicing aute pariatur. Mollit ex duis incididunt.",
+                "text": "Dolor mollit nulla irure commodo fugiat nostrud sint enim ullamco in velit velit. Laborum dolore nisi labore amet et reprehenderit et culpa deserunt esse sunt cillum culpa laboris.",
+                "spans": []
+              }
+            ],
+            "iconColor": "red"
+          },
+          {
+            "icons": "loading",
+            "title": "whiteboard ubiquitous technologies",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Cillum eu qui aliqua sit officia nostrud incididunt ut. Ex quis adipisicing sint eu.",
                 "spans": []
               }
             ],
@@ -66,41 +78,29 @@
           },
           {
             "icons": "box",
-            "title": "reintermediate rich web services",
+            "title": "innovate rich e-services",
             "text": [
               {
                 "type": "paragraph",
-                "text": "Nisi sit velit ullamco incididunt dolore est deserunt ea nostrud exercitation amet.",
+                "text": "Nulla amet proident quis laboris elit qui aliquip duis labore in quis. Est Lorem aliquip velit.",
                 "spans": []
               }
             ],
-            "iconColor": "blue"
-          },
-          {
-            "icons": "box",
-            "title": "architect transparent e-commerce",
-            "text": [
-              {
-                "type": "paragraph",
-                "text": "Non consequat aliquip magna id nisi commodo proident cupidatat dolore ullamco. Laboris voluptate duis anim Lorem non nostrud est.",
-                "spans": []
-              }
-            ],
-            "iconColor": "purple"
+            "iconColor": "red"
           }
         ],
         "primary": {
           "title": [
             {
               "type": "heading2",
-              "text": "Deliver global vortals",
+              "text": "Harness transparent metrics",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Laborum duis sit consequat cillum ut veniam velit et id amet ex. Ut nostrud velit ea culpa. Veniam id in officia consequat aute.",
+              "text": "In minim ad ipsum esse. Eiusmod voluptate excepteur aliqua in pariatur.",
               "spans": []
             }
           ]
@@ -117,55 +117,29 @@
           "title": [
             {
               "type": "heading2",
-              "text": "Leverage robust interfaces",
+              "text": "Whiteboard world-class eyeballs",
               "spans": []
             }
           ],
           "subHeading": [
             {
               "type": "heading3",
-              "text": "Orchestrate web-enabled web services",
+              "text": "Empower compelling architectures",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Tempor aute Lorem consequat anim sit mollit duis occaecat non incididunt consequat cillum. Voluptate duis ipsum ut culpa cupidatat non non aliqua aliquip excepteur est fugiat. Consequat voluptate pariatur magna incididunt mollit commodo duis id amet enim.",
-              "spans": []
-            },
-            {
-              "type": "paragraph",
-              "text": "Dolor non officia in eu reprehenderit id enim est esse ut. Cupidatat nostrud est occaecat aliqua minim dolor exercitation ullamco pariatur consequat nostrud qui tempor fugiat. Consectetur cupidatat sunt pariatur.",
-              "spans": []
-            },
-            {
-              "type": "paragraph",
-              "text": "Sit sint do aute fugiat occaecat. Eiusmod ullamco consequat eiusmod veniam duis consequat velit irure.",
-              "spans": []
-            },
-            {
-              "type": "paragraph",
-              "text": "Excepteur aute Lorem labore non deserunt. Dolore excepteur dolore duis minim velit mollit commodo nisi consequat sint. Nostrud excepteur irure non veniam quis est veniam amet mollit.",
-              "spans": []
-            },
-            {
-              "type": "paragraph",
-              "text": "Adipisicing ipsum duis magna ullamco eiusmod.",
-              "spans": []
-            },
-            {
-              "type": "paragraph",
-              "text": "Nulla elit fugiat laboris sint pariatur cupidatat consequat eiusmod sunt quis deserunt in aliqua enim. Sint incididunt occaecat qui fugiat sunt tempor. Aliquip deserunt tempor commodo eiusmod enim deserunt.",
-              "spans": []
-            },
-            {
-              "type": "paragraph",
-              "text": "Dolor pariatur sint labore officia aute esse nostrud aute ex laboris ex tempor laborum irure deserunt.",
+              "text": "Amet sunt eiusmod ad elit commodo tempor fugiat. Velit nisi dolore labore.",
               "spans": []
             }
           ],
-          "buttonText": "facilitate leading-edge platforms"
+          "buttonText": "disintermediate granular action-items",
+          "buttonLink": {
+            "link_type": "Web",
+            "url": "http://google.com"
+          }
         }
       }
     ],
@@ -206,6 +180,59 @@
       "default-slice": {
         "primary": {}
       }
-    }
+    },
+    "PriceTable": {
+      "default-slice": {
+        "primary": {}
+      }
+    },
+    "Accreditations": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "accreditations",
+        "items": [
+          {
+            "logo": {
+              "dimensions": {
+                "width": 900,
+                "height": 500
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+            }
+          },
+          {
+            "logo": {
+              "dimensions": {
+                "width": 900,
+                "height": 500
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+            }
+          }
+        ],
+        "primary": {
+          "title": [
+            {
+              "type": "heading2",
+              "text": "Redefine e-business deliverables",
+              "spans": []
+            }
+          ],
+          "subHeading": [
+            {
+              "type": "heading2",
+              "text": "Utilize B2B schemas",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "ServiceCards": {}
   }
 }

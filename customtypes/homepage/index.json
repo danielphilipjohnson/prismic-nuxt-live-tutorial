@@ -31,6 +31,9 @@
             },
             "text_block": {
               "type": "SharedSlice"
+            },
+            "accreditations": {
+              "type": "SharedSlice"
             }
           }
         }

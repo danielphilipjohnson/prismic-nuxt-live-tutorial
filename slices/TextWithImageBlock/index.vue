@@ -73,6 +73,6 @@ export default {
   @apply h-full object-cover mb-2;
 }
 .text-container {
-  @apply col-span-2 mx-8;
+  @apply col-span-2 ;
 }
 </style>

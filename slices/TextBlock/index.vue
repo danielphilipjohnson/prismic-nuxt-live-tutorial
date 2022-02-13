@@ -1,5 +1,5 @@
 <template>
-  <section class="px-8">
+  <section class="text-block">
     <HeaderPrismic
       :title="slice.primary.title"
       titleClasses="text-4xl font-bold leading-9"
@@ -41,4 +41,7 @@ export default {
 </script>
 
 <style scoped>
+.text-block {
+  @apply container mx-auto max-w-4xl;
+}
 </style>
