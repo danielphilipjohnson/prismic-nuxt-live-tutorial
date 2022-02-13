@@ -14,7 +14,7 @@
         :description="slice.primary.description"
         :buttonText="slice.primary.cta"
         :buttonLink="slice.primary.ctaLink"
-        containerClasses="max-w-2xl text-xl"
+        containerClasses="text-xl"
       />
     </div>
 

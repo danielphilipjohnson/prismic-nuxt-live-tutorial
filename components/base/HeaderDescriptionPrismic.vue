@@ -6,7 +6,7 @@
     />
     <prismic-rich-text
       :field="description"
-      :class="descriptionClasses + ' text-2xl text-center md:text-3xl mb-14'"
+      :class="descriptionClasses + ' text-center mb-14'"
     />
   </header>
 </template>

@@ -4,7 +4,7 @@
       :title="slice.primary.title"
       titleClasses="text-4xl font-bold leading-9"
       :subHeading="slice.primary.subHeading"
-      containerClasses="max-w-2xl"
+      containerClasses=""
       subHeadingClasses="text-2xl font-medium leading-8"
     />
 
@@ -12,7 +12,7 @@
       :description="slice.primary.description"
       :buttonText="slice.primary.buttonText"
       :buttonLink="slice.primary.buttonLink"
-      containerClasses="max-w-2xl"
+      containerClasses=""
     />
 
   
