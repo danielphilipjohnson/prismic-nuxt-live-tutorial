@@ -34,7 +34,7 @@
             "label": "Description",
             "placeholder": "A nice description of your product",
             "allowTargetBlank": true,
-            "single": "paragraph"
+            "multi": "paragraph,list-item,hyperlink"
           }
         },
         "buttonText": {

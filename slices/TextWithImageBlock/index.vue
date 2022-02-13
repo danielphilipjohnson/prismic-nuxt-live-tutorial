@@ -9,6 +9,7 @@
         <HeaderPrismic
           :title="slice.primary.title"
           :subHeading="slice.primary.subHeading"
+          titleClasses="text-2xl font-bold"
         />
 
         <DescriptionPrismic
@@ -64,7 +65,7 @@ export default {
 
 <style scoped>
 .image-block {
-  @apply grid grid-cols-1 md:grid-cols-3 container mx-auto max-w-7xl;
+  @apply grid grid-cols-1 md:grid-cols-3 container mx-auto max-w-7xl py-4;
 }
 .image-container {
   @apply pt-8 col-span-1 h-full;
