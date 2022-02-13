@@ -1,7 +1,7 @@
 <template>
-  <div :class="containerClasses" class="mx-auto prose">
+  <div :class="containerClasses" class="mx-auto">
     <prismic-rich-text
-      class="text-xl font-light leading-9"
+      class="mb-8 text-xl font-light leading-9"
       :field="description"
     />
     <template v-if="buttonText">
