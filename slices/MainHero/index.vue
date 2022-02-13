@@ -4,7 +4,7 @@
       <HeaderPrismic
         :title="slice.primary.title"
         titleClasses="title mb-2"
-        :subHeading="slice.primary.subHeading"
+        :subHeading="slice.primary.HeroBody"
         subHeadingClasses="text-3xl font-semibold"
       />
 

@@ -164,25 +164,25 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Reinvent clicks-and-mortar applications",
+                  "text": "Incubate integrated communities",
                   "spans": []
                 }
               ],
               "subHeading": [
                 {
                   "type": "heading2",
-                  "text": "Orchestrate B2B schemas",
+                  "text": "Evolve mission-critical communities",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "In commodo occaecat consequat ipsum nisi irure velit velit ut ex culpa excepteur consectetur quis sunt. Ex consectetur proident sint pariatur sit adipisicing minim tempor pariatur. Ullamco culpa amet incididunt aliqua.",
+                  "text": "Id sunt esse culpa culpa sunt proident. Laborum tempor do id laboris ipsum enim Lorem duis exercitation consequat labore ut officia ullamco. Do est aliqua veniam elit non occaecat eu nulla ipsum Lorem qui.",
                   "spans": []
                 }
               ],
-              "cta": "whiteboard world-class paradigms",
+              "cta": "utilize plug-and-play deliverables",
               "ctaLink": {
                 "link_type": "Web",
                 "url": "http://google.com"
@@ -194,7 +194,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
               }
             }
           }
@@ -208,7 +208,7 @@
           "default-slice": {
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\MainHero\\default-slice\\preview.png",
             "width": 800,
-            "height": 428
+            "height": 507
           }
         }
       },
@@ -284,6 +284,280 @@
             "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\MySlice\\default-slice\\preview.png",
             "width": 800,
             "height": 256
+          }
+        }
+      },
+      "price_table": {
+        "library": "slices",
+        "id": "price_table",
+        "name": "PriceTable",
+        "description": "PriceTable",
+        "model": {
+          "id": "price_table",
+          "type": "SharedSlice",
+          "name": "PriceTable",
+          "description": "PriceTable",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Display a list of pricing plans",
+              "icon": "attach_money",
+              "display": "grid",
+              "non-repeat": {
+                "eyebrow_headline": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Eyebrow Headline",
+                    "placeholder": "Pricing plans"
+                  }
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2",
+                    "label": "Title",
+                    "placeholder": "Choose the plan"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink",
+                    "allowTargetBlank": true,
+                    "label": "Description",
+                    "placeholder": "Choose the version that works for you ..."
+                  }
+                }
+              },
+              "repeat": {
+                "plan_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading3",
+                    "label": "Plan title",
+                    "placeholder": "Simple, Gold, Premium..."
+                  }
+                },
+                "price_option": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "heading4",
+                    "label": "Price Option",
+                    "placeholder": "Free, $19, Contact us..."
+                  }
+                },
+                "features": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "list-item",
+                    "label": "Features",
+                    "placeholder": "A list of features using bullet list"
+                  }
+                },
+                "call_to_action": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "Call To Action",
+                    "placeholder": "Link to Signup / More info...",
+                    "select": null
+                  }
+                },
+                "call_to_action_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph",
+                    "label": "Call To Action Text",
+                    "placeholder": "Start your free trial"
+                  }
+                }
+              },
+              "primary": {
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "subHeading": {
+                  "config": {
+                    "label": "subHeading",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "description": {
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {
+                "planTitle": {
+                  "config": {
+                    "label": "planTitle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "priceOption": {
+                  "config": {
+                    "label": "priceOption",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "features": {
+                  "config": {
+                    "label": "features",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "callToAction": {
+                  "config": {
+                    "label": "callToAction",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "callToActionText": {
+                  "config": {
+                    "label": "callToActionText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "price_table",
+            "items": [
+              {
+                "planTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident laborum anim sit.",
+                    "spans": []
+                  }
+                ],
+                "priceOption": [
+                  {
+                    "type": "paragraph",
+                    "text": "Pariatur irure adipisicing proident officia adipisicing in aute velit esse Lorem irure.",
+                    "spans": []
+                  }
+                ],
+                "features": "synergize frictionless paradigms",
+                "callToAction": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "callToActionText": "engage bricks-and-clicks solutions"
+              },
+              {
+                "planTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Reprehenderit est ea nostrud. Dolore aute in aliqua aute laboris enim proident sunt reprehenderit duis aute.",
+                    "spans": []
+                  }
+                ],
+                "priceOption": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliqua ea reprehenderit ad aliqua ex fugiat non qui magna tempor eu. Pariatur ipsum nulla ex veniam et dolore veniam sit dolor deserunt esse velit laborum laboris aliqua. Velit ipsum enim enim sit anim nostrud sunt consectetur ex enim in tempor.",
+                    "spans": []
+                  }
+                ],
+                "features": "unleash visionary technologies",
+                "callToAction": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "callToActionText": "transform seamless experiences"
+              },
+              {
+                "planTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cupidatat enim consequat nisi consequat velit aute nulla velit anim est sint sunt consectetur laborum mollit.",
+                    "spans": []
+                  }
+                ],
+                "priceOption": [
+                  {
+                    "type": "paragraph",
+                    "text": "Do voluptate culpa laboris commodo officia in eu Lorem Lorem velit commodo tempor nostrud. Voluptate enim duis cillum id eiusmod aliquip pariatur magna eu in deserunt incididunt nisi sunt sint.",
+                    "spans": []
+                  }
+                ],
+                "features": "deliver end-to-end blockchains",
+                "callToAction": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "callToActionText": "reinvent customized mindshare"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim anim anim dolor occaecat. Excepteur commodo ad minim non laboris exercitation. Mollit proident veniam et deserunt consequat consequat incididunt sint enim.",
+                  "spans": []
+                }
+              ],
+              "subHeading": [
+                {
+                  "type": "paragraph",
+                  "text": "Incididunt labore ad officia.",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Mollit do deserunt ad culpa sit tempor ipsum irure occaecat dolor in irure in laboris.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Daniel\\gitprojects\\nuxt and prismic\\prismic-nuxt-live-tutorial\\.slicemachine\\assets\\slices\\PriceTable\\default-slice\\preview.png",
+            "width": 800,
+            "height": 584
           }
         }
       },

@@ -206,6 +206,11 @@
       "default-slice": {
         "primary": {}
       }
+    },
+    "PriceTable": {
+      "default-slice": {
+        "primary": {}
+      }
     }
   }
 }
