@@ -1,0 +1,94 @@
+{
+  "id": "service_cards",
+  "type": "SharedSlice",
+  "name": "ServiceCards",
+  "description": "ServiceCards",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ServiceCards",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "subHeading": {
+          "config": {
+            "label": "subHeading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        }
+      },
+      "items": {
+        "icon": {
+          "config": {
+            "label": "icon",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "serviceTitle": {
+          "config": {
+            "label": "serviceTitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "serviceDescription": {
+          "config": {
+            "label": "serviceDescription",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionText": {
+          "config": {
+            "label": "callToActionText",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLink": {
+          "config": {
+            "label": "callToActionLink",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "bgColor": {
+          "config": {
+            "label": "bgColor",
+            "placeholder": "",
+            "options": [
+              "red",
+              "blue",
+              "green",
+              "grey"
+            ]
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}

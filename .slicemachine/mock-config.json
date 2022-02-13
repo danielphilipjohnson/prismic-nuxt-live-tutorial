@@ -233,6 +233,10 @@
         }
       }
     ],
-    "ServiceCards": {}
+    "ServiceCards": {
+      "default-slice": {
+        "items": {}
+      }
+    }
   }
 }
