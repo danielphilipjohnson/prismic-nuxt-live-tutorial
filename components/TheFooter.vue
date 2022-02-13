@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-purple-300 ">
-    <div class="container grid gap-6 px-12 py-32 lg:grid-cols-4">
+    <div class="container grid gap-6 px-12 py-32 mx-auto lg:grid-cols-4">
       <div>
         <h3 class="mb-4 text-3xl font-bold">{{ menu1Heading }}</h3>
         <external-link :menu="menu1" menu-list-classes="py-2" />
