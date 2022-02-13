@@ -1,0 +1,45 @@
+{
+  "id": "accreditations",
+  "type": "SharedSlice",
+  "name": "Accreditations",
+  "description": "Accreditations",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Accreditations",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3"
+          }
+        },
+        "subHeading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Heading",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": false,
+            "single": "heading2,heading4,heading3,heading5"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "config": {
+            "label": "logo",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}
